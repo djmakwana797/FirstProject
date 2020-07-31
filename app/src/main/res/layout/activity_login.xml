@@ -4,13 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/colorDesigns"
+    android:hapticFeedbackEnabled="false"
     tools:context=".LoginActivity">
 
     <TextView
         android:id="@+id/forgottPass"
-        style="@style/EditText"
+
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
         android:gravity="center_horizontal"
         android:text="Forgot Password"
         android:textAllCaps="false"
@@ -33,6 +36,7 @@
     <view
         android:id="@+id/view2"
         class="androidx.viewpager.widget.ViewPager"
+
         android:layout_width="0dp"
         android:layout_height="100dp"
         android:background="@drawable/wave"
@@ -78,7 +82,7 @@
         android:layout_marginTop="16dp"
         android:background="@drawable/rounded_bg"
         android:text="LOGIN"
-        android:textColor="@android:color/white"
+        android:textColor="@color/colorDesigns"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -89,7 +93,6 @@
         style="@style/EditText"
         android:layout_width="328dp"
         android:layout_height="0dp"
-        android:layout_marginBottom="101dp"
         android:gravity="center_horizontal"
         android:text="New Here? Sign Up instead"
         android:textAllCaps="false"
@@ -108,16 +111,18 @@
         android:layout_marginEnd="16dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/person" />
+        app:srcCompat="@drawable/ic_baseline_face_24" />
 
     <TextView
         android:id="@+id/txtLogin"
         android:layout_width="210dp"
         android:layout_height="108dp"
         android:layout_marginTop="32dp"
+        android:fontFamily="casual"
         android:text="@string/welcome"
-        android:textColor="#FFFFFF"
+        android:textColor="@color/colorDesigns"
         android:textSize="30sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="@+id/topView"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
         app:layout_constraintHorizontal_bias="0.47"
