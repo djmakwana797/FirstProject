@@ -8,5 +8,27 @@
     </style>
     <style name="EditText">
         <item name="android:layout_margin">20dp</item>
+        <item name="android:padding">16dp</item>
+    </style>
+    <style name="email">
+        <item name="android:textSize">18dp</item>
+        <item name="android:layout_margin">16dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="header">
+        <item name="android:textSize">36dp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/colorYellow</item>
+    </style>
+    <style name="info">
+        <item name="android:textSize">18dp</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="layout">
+        <item name="android:padding">16dp </item>
     </style>
 </resources>

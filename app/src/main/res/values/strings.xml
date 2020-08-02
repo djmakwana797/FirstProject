@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">Git Demo - Project</string>
-    <string name="welcome">Hello there, Welcome back</string>
+    <string name="welcome">Welcome Back</string>
+    <string name="memb1">Divya Makwana dmakwana979@rku.ac.in</string>
+    <string name="memb2">Sandeep Ghosh sghosh710@rku.ac.in</string>
+    <string name="memb3">Mahesh Khachar mkhachar463@rku.ac.in</string>
 </resources>

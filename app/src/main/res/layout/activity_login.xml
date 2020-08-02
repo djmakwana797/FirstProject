@@ -5,8 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@color/colorYellow"
-    android:hapticFeedbackEnabled="false"
     tools:context=".LoginActivity">
+
 
     <TextView
         android:id="@+id/forgottPass"
@@ -117,13 +117,11 @@
         android:id="@+id/txtLogin"
         android:layout_width="178dp"
         android:layout_height="104dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="60dp"
         android:fontFamily="sans-serif-smallcaps"
         android:text="@string/welcome"
         android:textColor="@color/colorYellow"
-        android:textSize="24sp"
-        android:textStyle="bold"
+        style="@style/header"
         app:layout_constraintBottom_toBottomOf="@+id/topView"
         app:layout_constraintEnd_toStartOf="@+id/imageView2"
         app:layout_constraintHorizontal_bias="1.0"
