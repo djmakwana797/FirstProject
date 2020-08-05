@@ -84,6 +84,7 @@
     <EditText
         android:id="@+id/edtMessage"
         style="@style/EditText"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:background="@drawable/rounded_border"
         android:drawableEnd="@drawable/ic_baseline_message_24"

@@ -27,6 +27,8 @@ public class ContactUsActivity extends AppCompatActivity {
 
         switch (item.getItemId()){
             case R.id.mnuLogin:
+                Intent intentlogin=new Intent(ContactUsActivity.this,LoginActivity.class);
+                startActivity(intentlogin);
                 Toast.makeText(this, "Login Clicked", Toast.LENGTH_SHORT).show();
                 break;
 
@@ -37,8 +39,6 @@ public class ContactUsActivity extends AppCompatActivity {
                 break;
 
             case R.id.mnuContact:
-                Intent intentContact=new Intent(ContactUsActivity.this,ContactUsActivity.class);
-                startActivity(intentContact);
                 Toast.makeText(this, "Contact Clicked", Toast.LENGTH_SHORT).show();
                 break;
         }

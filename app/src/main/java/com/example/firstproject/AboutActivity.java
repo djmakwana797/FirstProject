@@ -14,7 +14,7 @@ public class AboutActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+        setContentView(R.layout.activity_about);
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -27,12 +27,12 @@ public class AboutActivity extends AppCompatActivity {
 
         switch (item.getItemId()){
             case R.id.mnuLogin:
+                Intent intentlogin=new Intent(AboutActivity.this,LoginActivity.class);
+                startActivity(intentlogin);
                 Toast.makeText(this, "Login Clicked", Toast.LENGTH_SHORT).show();
                 break;
 
             case R.id.mnuAbout:
-                Intent intentabout=new Intent(AboutActivity.this,AboutActivity.class);
-                startActivity(intentabout);
                 Toast.makeText(this, "About Clicked", Toast.LENGTH_SHORT).show();
                 break;
 
